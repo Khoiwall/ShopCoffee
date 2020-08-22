@@ -1,0 +1,126 @@
+.content-header{
+    position: absolute;
+    display: inline-block;
+    z-index: 6;
+    visibility: visible;
+    width: 0px;
+    height: 0px;
+    right: 608px;
+    top: 129px;
+}
+
+.logo-2, .logo-3{
+    position: absolute;
+    display: inline-block;
+    visibility: visible;
+}
+
+.logo-3{
+    top: 320px;
+    left: -18px;
+}
+
+.title-of-content{
+    position: absolute;
+    display: inline-block;
+    visibility: inherit;
+    width: auto;
+    top: 160px;
+    left:-350px;
+}
+
+.text-of-content{
+    position: absolute;
+    display: inline-block;
+    visibility: inherit;
+    width: auto;
+    top:385px;
+}
+
+.img-logo{
+    display: inline-block;
+    visibility: visible;
+}
+
+.title-of-content span{
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-family: Marcellus; 
+    width: 929px !important;
+    display: inline-block;
+}
+
+.text-of-content span{
+    min-width: 770px; 
+    max-width: 770px; 
+    white-space: normal; 
+    font-size: 18px; 
+    line-height: 30px; 
+    font-weight: 300; 
+    color: rgb(255, 255, 255); 
+    letter-spacing: 0px;
+    font-family: "Open Sans";
+    width: 700px !important;
+    display: inline-block;
+    position: absolute;
+    right: -515px;
+    text-align: center;
+}
+
+.component-content{
+    display: block;
+    position: relative;
+    opacity: 0.7;
+    width: auto;
+    height: auto;
+}
+
+#content-banner-1{
+    display: block;
+}
+
+#content-banner-2, #content-banner-3{
+    display: none;
+}
+
+@media (max-width: 490px){
+    .content-header{
+        position: absolute;
+        display: inline-block;
+        z-index: 6;
+        visibility: visible;
+        width: 0px;
+        height: 0px;
+        right: 320px;
+        top: 195px;
+    }
+
+    .title-of-content span{
+        color: #FFF;
+        text-transform: uppercase;
+        font-size:  30px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        font-family: Marcellus; 
+        width: 330px !important;
+        display: inline-block;
+    }
+    .title-of-content{
+        position: absolute;
+        display: inline-block;
+        visibility: inherit;
+        width: auto;
+        top: 175px;
+        left: -80px;
+    }
+    .logo-3{
+        top: 254px;
+        left: -27px;
+    }
+    .text-of-content{
+        display: none;
+    }
+}

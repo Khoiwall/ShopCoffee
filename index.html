@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="banner" id = "banner">
+        <div class="background-img">
+            <img src="home-1-slider-image-3.jpg" alt="Star" class="none star skip-image" id="imageOne">
+            <img src="home-1-slider-image-1.jpg" alt="Star" class="none" id="imageTwo">
+            <img src="home-1-slider-image-2.jpg" alt="Star" class="none" id="imageThree">
+        </div>
+        <div class="search-info" id="find-info">
+            <div class="row" style="width: 100%; height: 100%;">
+                <div class="col-10">
+                    <form>
+                        <input type="text" name="search" placeholder="SEARCH">
+                    </form>
+                </div>
+                <div class="col-2" style="width: auto;height: auto;position: absolute;right: 43px;top: 40px;">
+                    <span class="exit" id="exit"><i class="fas fa-times"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <div class="nav-bar-mobile">
+                <div class="banner-nav-bar">
+                    <div class="container" style="position: relative;height: 100%;">
+                        <div class="menu-mobile">
+                            <span id="clickAppearMenu"><i class="fas fa-bars"></i></span>
+                        </div>
+                        <div class="logo-mobile">
+                            <a href="#" style="width: 116px !important; display: inline-block; position: relative; top: 7px;"><img src=" logo-mobile.png" style="width: 116px !important; height: 55px !important;" /></a>
+                        </div>
+                    </div>
+                    <div class="menu-mobile-list" id ="mobile-menu">
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar" id="hide-nav">
+                <div class="logo">
+                    <a href="#" style="width: 100%; height: 100%; position: absolute;"><img class="logo-left" src="logo-light.png"/></a>
+                </div>
+
+                <div class="menu-postion-right" id="menu" style="padding-right: 40px;">
+                    <div class="menu-pc" style="height: 100%; display: block;">
+                        <div class="list-menu" style="height: 100%;" id="childmenu">
+                            <nav-bar></nav-bar>
+                            <span class="cart"><a href="#"><i class="fas fa-shopping-cart"></i></a></span>
+                            <span class="search" id="appear-search"><i class="fas fa-search"></i></span>
+                            <span class="bar-info"><i class="fas fa-bars"></i></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="components" class="component-content">
+                <infor-header v-for="value in titleContent" v-bind:value="value"></infor-header>
+            </div>
+        </header>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <script src="main-1.js"></script>
+    <script src="main-2.js"></script>
+</body>
+</html>

@@ -63,7 +63,7 @@ body{
 .star {
     animation: star 10s ease-out infinite;
     height: 100%;
-    width: 110%;
+    width: 100%;
     opacity: 0;
     display: none;
 }

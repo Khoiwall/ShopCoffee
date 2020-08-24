@@ -1,4 +1,4 @@
-Vue.component('infor-header',{
+Vue.component('content-banner',{
     template: `<div class="content-header" v-bind:id="value.id">
     <div class="logo-2">
         <div class="img-logo">
@@ -24,7 +24,7 @@ props:['value']
 })
 
 var componentContent = new Vue({
-    el: '#components',
+    el: '#contentBanner',
     data:{
         titleContent: [
             {id: 'content-banner-1' ,title: 'Coffee Masters'},
@@ -38,6 +38,8 @@ var contentBanner1 = document.getElementById('content-banner-1')
 var contentBanner2 = document.getElementById('content-banner-2')
 var contentBanner3 = document.getElementById('content-banner-3')
 var k = 1, tmp = 0
+contentBanner2.style.display = "none"
+contentBanner3.style.display = "none"
 setInterval(function(){
     if(k === 0 ){
         contentBanner1.style.display = "block"

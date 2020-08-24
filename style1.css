@@ -1,0 +1,114 @@
+.content-of-banner{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    display: inline-block;
+    top: 135px;
+}
+
+.pos-content{
+    position: relative;
+    width: 100%;
+    height: 0px;
+}
+
+.content-header{
+    position: relative;
+    width: 100%;
+    height: 0px;
+}
+
+.logo-2{
+    position: absolute;
+    right: 480px;
+    visibility: inherit;
+}
+
+.title-of-content{
+    position: absolute;
+    right: 55px;
+    top: 188px;
+    visibility: inherit;
+    z-index: 5;
+}
+
+.logo-3{
+    position: absolute;
+    right: 455px;
+    top: 305px;
+}
+
+.title-of-content span{
+    z-index: 5;
+    white-space: nowrap;
+    font-size: 100px;
+    line-height: 78px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    font-family: Marcellus;
+    text-transform: uppercase;
+    visibility: inherit;
+}
+
+.text-of-content{
+    position: absolute;
+    max-width: 850px;
+    text-align: center;
+    right: 100px;
+    top: 365px;
+}
+
+.text-of-content span{
+    z-index: 8;
+    min-width: 770px;
+    max-width: 770px;
+    white-space: normal;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    font-family: "Open Sans";
+    visibility: inherit;
+}
+
+@media (max-width: 991px){
+    .text-of-content{
+        display: none;
+    }
+    .logo-2{
+        right: 355px;
+    }
+    .content-of-banner{
+        top: 195px;
+    }
+    .title-of-content span{
+        font-size: 68px;
+    }
+    .title-of-content{
+        right: 90px;
+        top: 155px;
+    }
+    .logo-3{
+        right: 330px;
+        top: 250px;
+    }
+}
+
+@media (max-width: 450px){
+    .title-of-content span{
+        font-size: 28px;
+    }
+    .title-of-content{
+        right: 260px;
+    }
+    .pos-content{
+        right: -195px;
+    }
+}
+@media (max-width: 350px){
+    .pos-content{
+        right: -240px;
+    }
+}

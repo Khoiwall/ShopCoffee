@@ -97,18 +97,7 @@
 }
 
 @media (max-width: 450px){
-    .title-of-content span{
-        font-size: 28px;
-    }
-    .title-of-content{
-        right: 260px;
-    }
-    .pos-content{
-        right: -195px;
-    }
-}
-@media (max-width: 350px){
-    .pos-content{
-        right: -240px;
+    .content-of-banner{
+        display: none;
     }
 }

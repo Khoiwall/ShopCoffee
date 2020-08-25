@@ -15,9 +15,10 @@ Vue.component('content-banner',{
             <img src="slider-separator-img.png">              
         </div>
     </div>
-
-    <div class="text-of-content">
-        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna aliqua atin script and its variants, and. </span>
+    <div class="shop-here">
+        <div class ="border-shop">
+            <a href="#">Shop Here</a>
+        </div>
     </div>
 </div>`,
 props:['value']

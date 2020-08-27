@@ -1,0 +1,79 @@
+.content-page{
+    width: 100%;
+    height: auto;
+}
+.pos-content-page{
+    height: auto;
+    display: block;
+    margin: 0px 10%;
+    text-align: center;
+}
+.padding-top-page{
+    padding-top: 120px;
+}
+
+.wrap-content{
+    width: auto;
+    height: auto;
+    display: block;
+    background: 0 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0
+}
+
+.title-of-content-page{
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+
+.title-of-content-page h2{
+    color: #262626;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 400;
+    vertical-align: baseline;
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.text-content-page span{
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1.55em;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.title-of-content-page h2::selection, .text-content-page span::selection{
+    background: #be9c79;
+    color: #fff;
+}
+
+.design-title{
+    background: 0 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline: 0;
+}
+
+.logo-content-page, .text-content-page{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+@media (max-width: 991px){
+    .title-of-content-page h2{
+        font-size: 36px;
+    }
+    .text-content-page{
+        max-width: auto;
+    }
+}

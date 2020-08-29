@@ -210,9 +210,15 @@ body{
 
     .nav-bar-mobile{
         display: block;
-        position: relative;
         height: 70px;
         width: 100%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 999;
     }
 
     .banner-nav-bar{
@@ -260,6 +266,22 @@ body{
         width: 100%;
         display: block;
         height: 70px;
+    }
+
+    .hidden-menu{
+        top: 0px;
+        left: 0px;
+        position: fixed;
+        width: 200px;
+        height: 100vh;
+        transform: translateX(-100%);
+        background-color: black;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .appear-menu{
+        transform: translateX(0);
     }
 }
 

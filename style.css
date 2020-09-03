@@ -278,6 +278,7 @@ body{
         background-color: rgb(255, 255, 255);
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.5s ease-in-out;
+        overflow-y: scroll;
     }
 
     .appear-menu{
@@ -332,24 +333,76 @@ body{
     }
 
     .list-menu-mobile ul li{
-        padding-bottom: 16px;
         position: relative;
         width: auto;
         height: auto;
+        cursor: pointer;
     }
-    .list-menu-mobile ul li::after{
+    .list-menu-mobile ul .border-bottom::after{
         content: "";
         border-bottom: 1px solid black;
-        width: 200px;
-        position: absolute;
+        width: 100%;
+        position: relative;
         bottom: 8px;
         left: 0px;
+        top: 3px;
+        display: block;
+    }
+
+    .list-menu-mobile li a{
+        color: rgb(0,0,0);
+        width: 100% !important;
+        display: block;
+    }
+
+    .list-menu-mobile li a:hover{
+        text-decoration: none;
     }
 
     .arrow-right{
         position: absolute;
         right: 10px;
         cursor: pointer;
+        top: 0px;
+    }
+
+    .hidden-arrow{
+        visibility: hidden;
+    }
+
+    .abc{
+        visibility: visible !important;
+        height: 149px !important;
+        opacity: 1 !important;
+    }
+
+    .abcd{
+        visibility: visible !important;
+        height: 115px !important;
+        opacity: 1 !important;
+    }
+
+    .list-menu-mobile .menu-mobile-children{
+        padding: 13px 0px 0px 15px;
+        visibility: hidden;
+        height: 0px;
+        opacity: 0;
+        transition: height 0.5s;
+    }
+
+    .menu-mobile-children li{
+        padding-bottom: 10px !important;
+    }
+
+    .list-menu-mobile .menu-mobile-children li::after{
+        content: "";
+        border-bottom: 1px dotted black;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        bottom: 8px;
+        left: 0px;
+        top: 25px;
     }
 }
 

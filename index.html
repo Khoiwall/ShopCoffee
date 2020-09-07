@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="style1.css">
-    <link rel="stylesheet" type="text/css" href="content.css">
+    <link rel="stylesheet" type="text/css" href="./pubic/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./pubic/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="./pubic/css/content.css">
+    <link rel="stylesheet" type="text/css" href="./pubic/css/describle.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
+    <a class="on-the-top" id="myBtn">top</a>
     <!--banner-->
     <div class="shadow-of-menu hidden" id ="shadow"></div>
     <div class="banner" id = "banner">
         <div class="background-img">
-            <img src="home-1-slider-image-3.jpg" alt="Star" class="none star skip-image" id="imageOne">
-            <img src="home-1-slider-image-1.jpg" alt="Star" class="none" id="imageTwo">
-            <img src="home-1-slider-image-2.jpg" alt="Star" class="none" id="imageThree">
+            <img src="./pubic/image/home-1-slider-image-3.jpg" alt="Star" class="none star skip-image" id="imageOne">
+            <img src="./pubic/image/home-1-slider-image-1.jpg" alt="Star" class="none" id="imageTwo">
+            <img src="./pubic/image/home-1-slider-image-2.jpg" alt="Star" class="none" id="imageThree">
         </div>
         <div class="search-info" id="find-info">
             <div class="row" style="width: 100%; height: 100%;">
@@ -40,7 +42,7 @@
                             <span id="clickAppearMenu"><i class="fas fa-bars"></i></span>
                         </div>
                         <div class="logo-mobile">
-                            <a href="#" style="width: 116px !important; display: inline-block; position: relative; top: 7px;"><img src=" logo-mobile.png" style="width: 116px !important; height: 55px !important;" /></a>
+                            <a href="#" style="width: 116px !important; display: inline-block; position: relative; top: 7px;"><img src="./pubic/image/logo-mobile.png" style="width: 116px !important; height: 55px !important;" /></a>
                         </div>
                     </div>
                     <div class="menu-mobile-list" id ="menu-mobile">
@@ -50,7 +52,7 @@
             </div>
             <div class="nav-bar" id="hide-nav">
                 <div class="logo">
-                    <a href="#" style="width: 100%; height: 100%; position: absolute;"><img class="logo-left" src="logo-light.png"/></a>
+                    <a href="#" style="width: 100%; height: 100%; position: absolute;"><img class="logo-left" src="./pubic/image/logo-light.png"/></a>
                 </div>
 
                 <div class="menu-postion-right" id="menu" style="padding-right: 40px;">
@@ -73,7 +75,7 @@
         </div>
         <div class="content-banner-mobile">
             <div class="logo-banner-mobile">
-                <img src="h1-slider-img-1.png"/>
+                <img src="./pubic/image/h1-slider-img-1.png"/>
             </div>
             <br>
             <div class="title-mobile">
@@ -81,7 +83,7 @@
             </div>
             <br>
             <div class="logo-1-banner-mobile">
-                <img src="slider-separator-img.png">
+                <img src="./pubic/image/slider-separator-img.png">
             </div>
             <br>
             <div class="shop-here-mobile">
@@ -103,7 +105,7 @@
                     </div>
                     <br>
                     <div class="logo-content-page">
-                        <img src="title-separator.png" alt="title content" />
+                        <img src="./pubic/image/title-separator.png" alt="title content" />
                     </div>
                     <br>
                     <div class="text-content-page" style="max-width: 500px">
@@ -113,14 +115,21 @@
             </div>
         </div>
     </div>
+    <!--describle-->
+    <div class="container-describle" id ="Describle">
+        <class class="row container-wrap">
+            <describle v-for="value in describle" v-bind:value="value"></describle>
+        </class>
+    </div>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
-    <script src="main-1.js"></script>
-    <script src="main-2.js"></script>
-    <script src="menu.js"></script>
+    <script src="./pubic/javascript/main.js"></script>
+    <script src="./pubic/javascript/main-1.js"></script>
+    <script src="./pubic/javascript/main-2.js"></script>
+    <script src="./pubic/javascript/menu.js"></script>
+    <script src="./pubic/javascript/wrapDescribe.js"></script>
 </body>
 </html>

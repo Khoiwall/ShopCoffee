@@ -2,7 +2,7 @@ Vue.component('content-banner',{
     template: `<div class="content-header" v-bind:id="value.id">
     <div class="logo-2">
         <div class="img-logo">
-            <img src="h1-slider-img-1.png">              
+            <img src="./pubic/image/h1-slider-img-1.png">              
         </div>
     </div>
 
@@ -12,7 +12,7 @@ Vue.component('content-banner',{
 
     <div class="logo-3">
         <div class="img-logo">
-            <img src="slider-separator-img.png">              
+            <img src="./pubic/image/slider-separator-img.png">              
         </div>
     </div>
     <div class="shop-here">

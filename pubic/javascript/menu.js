@@ -135,7 +135,7 @@ clickMenuFaTher0.addEventListener('click',function(){
 })
 clickMenuFaTher1.addEventListener('click',function(){
     if (appearMenuChildren1.className === 'menu-mobile-children'){
-        appearMenuChildren1.className += ' abc'
+        appearMenuChildren1.className += ' abce'
     }
     else{
         appearMenuChildren1.className = 'menu-mobile-children'

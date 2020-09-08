@@ -1,6 +1,6 @@
 Vue.component('describle',{
     template:`
-        <div class ="style-wrap-describle col-xs-12 col-md-3 col-md-6">
+        <div class ="style-wrap-describle col-lg-3 col-md-6">
             <div class ="wrap-image-describle">
                 <div class="style-image">
                     <div class = "cover">

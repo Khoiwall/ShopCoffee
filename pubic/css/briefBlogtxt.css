@@ -1,0 +1,66 @@
+.brief-blog{
+    background-image: url('../image/new-new-h1-bacground-img-3.jpg');
+    position: relative;
+}
+
+.style-brief-blog{
+    padding-top: 100px;
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.content-brief-blog{
+    padding: 0px 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.brief-blog-inner{
+    padding-bottom: 73px;
+    width: 100%;
+}
+
+.wrap-brief-blog{
+    width: auto;
+    height: auto;
+}
+
+.tittle-brief-blog{
+    text-align: center;
+}
+
+.style-title h1,.style-title{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.logo-brief-blog{
+    display: flex;
+    justify-content: center;
+}
+
+.image-blog{
+    padding-top: 2px;
+    width: auto;
+    height: auto;
+}
+
+.describle-blog{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cover-blog{
+    max-width: 500px;
+}
+
+.describle-blog span{
+    font-size: 16px;
+}

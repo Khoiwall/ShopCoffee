@@ -1,7 +1,7 @@
 Vue.component('describle',{
     template:`
         <div class ="style-wrap-describle col-lg-3 col-md-6">
-            <div class ="wrap-image-describle">
+            <div class ="wrap-describle">
                 <div class="style-image">
                     <div class = "cover">
                         <img v-bind:src="value.image"/>
@@ -28,22 +28,22 @@ var describle = new Vue({
     data:{
         describle:[
             {
-                image: './pubic/image/describle1.png',
+                image: './public/image/describle1.png',
                 title: 'TYPES OF COFFEE',
                 describle: 'Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo'
             },
             {
-                image: './pubic/image/describle2.png',
+                image: './public/image/describle2.png',
                 title: 'BEAN VARIETIES',
                 describle: 'Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo'
             },
             {
-                image: './pubic/image/describle3.png',
+                image: './public/image/describle3.png',
                 title: 'COFFEE & PASTRY',
                 describle: 'Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo'
             },
             {
-                image: './pubic/image/describle4.png',
+                image: './public/image/describle4.png',
                 title: 'COFFEE TO GO',
                 describle: 'Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo'
             }

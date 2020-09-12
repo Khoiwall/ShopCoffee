@@ -36,9 +36,7 @@ data(){
     return{
         homes:[
             {list: 'Mocha'},
-            {list: 'Espresso'},
-            {list: 'Robusta'},
-            {list: 'Landing'}
+            {list: 'Espresso'}
         ],
         pages:[
             {list: 'About US'},

@@ -48,7 +48,7 @@
     text-transform: none;
 }
 
-.title-of-content-page h2::selection, .text-content-page span::selection{
+*::selection{
     background: #be9c79;
     color: #fff;
 }

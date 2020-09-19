@@ -35,9 +35,7 @@ Vue.component('menu-mobile',{
             ],
             homes:[
                 {list: 'Mocha'},
-                {list: 'Espresso'},
-                {list: 'Robusta'},
-                {list: 'Landing'}
+                {list: 'Espresso'}
             ],
             pages:[
                 {list: 'About US'},

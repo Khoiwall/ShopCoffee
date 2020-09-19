@@ -1,0 +1,37 @@
+.kyr-por-wrapper{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.kyr-por-item{
+    width: 100%;
+    height: 100%;
+    padding: 12px 12px 12px 0px;
+}
+
+.kyr-por-item img{
+    max-width: 100%;
+}
+
+.kyr-por-inner{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.kyr-por-image, .kyr-por-text-holder{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.kyr-por-text-holder{
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

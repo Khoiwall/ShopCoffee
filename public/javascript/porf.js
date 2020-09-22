@@ -6,13 +6,22 @@ Vue.component('portfolio',{
                     <article class="kyr-por-item-space">
                         <div class="kyr-por-inner">
                             <div class="kyr-por-image">
-                                <img v-bind:src= value.image />
+                                <a class="kyr-por-image-link"><img v-bind:src= value.image /></a>
                             </div>
                             <div class="kyr-por-text-holder">
+                                <div class="kyr-por-link"><a class="kyr-por-link" href="#"></a></div>
                                 <div class="kyr-por-text-wrapper">
                                     <div class="kyr-por-text">
-                                        <div class="kyr-por-text-title">asdasdas</div>
-                                        <div class="kyr-por-text-link">sadasd</div>
+                                        <div class="kyr-por-text-title">
+                                            <h3 class = "cover">
+                                                <span class="kyr-por-text-style">
+                                                    {{value.title}}
+                                                </span>
+                                            </h3>
+                                        </div>
+                                        <div class="kyr-por-text">
+                                            <p class = "kyr-por-text-linkStyle">Cup of Coffee/Filtered</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

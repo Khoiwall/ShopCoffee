@@ -50,3 +50,43 @@ Vue.component('portfolio',{
 new Vue({
     el: '#kyrProWrapper'
 })
+
+Vue.component('trademark',{
+    template: `
+    <div class= "kyr-wrapper">
+        <div class="kyr-Trademark-for-slider">
+            <div class="kyr-Trademark-items autoplay">
+                <div class="kyr-Trademark-items-image" v-for ="value in logos">
+                    <img v-bind:src= value.image />
+                </div>
+            </div?>
+        </div>
+    </div>
+    `,
+    data(){
+        return{
+            logos:[
+                {image: './public/image/clients-img-1-1.png'},
+                {image: './public/image/clients-img-2.png'},
+                {image: './public/image/clients-img-3.png'},
+                {image: './public/image/clients-img-4.png'},
+                {image: './public/image/clients-img-5.png'},
+                {image: './public/image/clients-img-6.png'}
+            ]
+        }
+    }
+})
+
+new Vue({
+    el: '#kyrForSliderTrademark'
+})
+
+$(function(){
+    $('.autoplay').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 4000,
+    });
+})

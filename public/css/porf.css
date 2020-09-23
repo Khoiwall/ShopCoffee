@@ -1,4 +1,4 @@
-.kyr-por-wrapper{
+.kyr-por-wrapper, .kyr-contact-warpper{
     width: auto;
     height: auto;
     display: inline-block;
@@ -107,4 +107,25 @@
     .col-md-6{
         padding: 10px 0px 10px 0px !important;
     }
+}
+/*contact css*/
+.kyr-wrapper{
+    margin: 40px 0px;
+}
+
+.kyr-Trademark-for-slider{
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+}
+.kyr-Trademark-items{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.kyr-Trademark-items-image{
+    padding: 0px 10px;
+}
+.kyr-Trademark-items-image:focus{
+    outline: none !important;
 }

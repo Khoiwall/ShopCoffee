@@ -118,8 +118,6 @@
 }
 
 .kyr-Trademark-for-slider{
-    overflow-x: scroll;
-    width: 1900px;
     display: flex;
     align-items: center;
     padding: 12px 15px;

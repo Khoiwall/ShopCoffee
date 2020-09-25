@@ -55,7 +55,7 @@ Vue.component('trademark',{
     template: `
     <div class= "kyr-wrapper">
         <div class="kyr-Trademark-for-slider">
-            <div class="kyr-Trademark-items autoplay">
+            <div class="kyr-Trademark-items responsive">
                 <div class="kyr-Trademark-items-image" v-for ="value in logos">
                     <img v-bind:src= value.image />
                 </div>
@@ -82,11 +82,37 @@ new Vue({
 })
 
 $(function(){
-    $('.autoplay').slick({
+    $('.responsive').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
         autoplaySpeed: 4000,
+        responsive: [
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+            }
+            },
+            {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
     });
 })

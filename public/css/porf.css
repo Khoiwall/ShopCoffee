@@ -110,7 +110,7 @@
 }
 /*contact css*/
 .kyr-Trademark-warpper{
-    width: 1900px;
+    width: 100%;
     display: inline-block;
 }
 .kyr-wrapper{
@@ -118,6 +118,8 @@
 }
 
 .kyr-Trademark-for-slider{
+    overflow-x: scroll;
+    width: 1900px;
     display: flex;
     align-items: center;
     padding: 12px 15px;

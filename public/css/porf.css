@@ -109,6 +109,10 @@
     }
 }
 /*contact css*/
+.kyr-Trademark-warpper{
+    width: 1900px;
+    display: inline-block;
+}
 .kyr-wrapper{
     margin: 40px 0px;
 }
@@ -128,4 +132,10 @@
 }
 .kyr-Trademark-items-image:focus{
     outline: none !important;
+}
+
+.kyr-Trademark-items-image img, .slick-track{
+    width: auto;
+    height: auto;
+    display: inline-block;
 }

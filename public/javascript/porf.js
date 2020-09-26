@@ -6,7 +6,7 @@ Vue.component('portfolio',{
                     <article class="kyr-por-item-space">
                         <div class="kyr-por-inner">
                             <div class="kyr-por-image">
-                                <a class="kyr-por-image-link"><img v-bind:src= value.image /></a>
+                                <a class="kyr-por-image-link" href ="#"><img v-bind:src= value.image alt ="por image" /></a>
                             </div>
                             <div class="kyr-por-text-holder">
                                 <div class="kyr-por-link"><a class="kyr-por-link" href="#"></a></div>
